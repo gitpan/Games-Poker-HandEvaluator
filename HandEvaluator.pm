@@ -13,7 +13,7 @@ our %EXPORT_TAGS = ( 'all' => [ qw(
 
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw();
-our $VERSION = '1.0';
+our $VERSION = '1.1';
 
 require XSLoader;
 XSLoader::load('Games::Poker::HandEvaluator', $VERSION);
@@ -37,7 +37,7 @@ __END__
 
 =head1 NAME
 
-Games::Poker::HandEvaluator - Perl extension for blah blah blah
+Games::Poker::HandEvaluator - Evaluate poker hands
 
 =head1 SYNOPSIS
 
